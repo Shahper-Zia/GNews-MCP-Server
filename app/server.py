@@ -54,13 +54,13 @@ def _format_articles(articles: List[Dict[str, Any]]) -> str:
         source = (a.get("source") or {}).get("name") or "Unknown"
         description = a.get("description") or ""
         lines.append(
-            f"{i}. {title}\n"
+            f"{i}. Title: {title}\n"
             f"   Source: {source}\n"
             f"   Published: {published_fmt}\n"
             f"   URL: {url}\n"
-            f"   Summary: {description}\n"
+            f"   Description: {description}\n"
         )
-    return "\n".join(lines)
+    return "\n\n".join(lines)
 
 
 async def _get_json(path: str, params: Dict[str, Any]) -> Dict[str, Any]:

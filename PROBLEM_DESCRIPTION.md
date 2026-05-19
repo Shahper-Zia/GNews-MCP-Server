@@ -1,7 +1,7 @@
 # GNews MCP Server — Learner Assignment
 MCP (Model Context Protocol) Track | Total Marks: 100 | Duration: 3 Hours
 
-> Confidential — Internal Training Material
+> Confidential — Ultron Internal Training Material
 
 ---
 
@@ -96,7 +96,6 @@ All tools must:
 - Handle errors gracefully (missing API key, API failures, no results)
 - Use Python type hints for all parameters
 
-> Confidential — Internal Training Material | Page
 
 ---
 
@@ -148,7 +147,6 @@ Hint: GNews API supports date filtering via:
 params = { 'q': query, 'from': from_date, 'to': to_date, ... }
 ```
 
-> Confidential — Internal Training Material | Page
 
 ---
 
@@ -172,7 +170,6 @@ Submission deadline and upload instructions will be shared by your instructor.
 | Error handling — graceful failures                | 15%   | Missing key, bad input        |
 | Documentation — README and inline comments        | 15%   |                               |
 
-> Confidential — Internal Training Material | Page
 
 ---
 
@@ -187,7 +184,3 @@ Submission deadline and upload instructions will be shared by your instructor.
 Important: Never hardcode your API key in source code. Always use environment variables. Submissions found with hardcoded API keys will be penalised.
 
 ---
-
-Good luck! Happy coding.
-
-> Confidential — Internal Training Material | Page

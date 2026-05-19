@@ -47,8 +47,3 @@ Open http://localhost:6274 to test tools.
 - get_news_by_date_range(query, from_date, to_date, max_results)  # YYYY-MM-DD
 
 All return formatted strings with: title, source, published date, URL, and summary.
-
-## Notes
-- Do not commit your .env or API key.
-- Handles: missing key, API failures, no results, invalid inputs.
-- Uses async httpx, FastMCP, python-dotenv.
